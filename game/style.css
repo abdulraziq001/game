@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+  }
+  
+  .game-box {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2em;
+    color: #00ff88;
+    text-shadow: 0 0 15px #00ff88;
+  }
+  
+  canvas {
+    border: 3px solid #00ff88;
+    background-color: #111;
+    box-shadow: 0 0 20px #00ff88;
+    margin-top: 10px;
+  }
+  
+  .score-board {
+    margin-top: 10px;
+    font-size: 1.2em;
+  }
+  
+  p {
+    margin-top: 10px;
+    color: #ccc;
+    font-size: 0.9em;
+  }
+  
